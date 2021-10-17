@@ -1,0 +1,143 @@
+.our-collection .container {
+    background-image: url(./../images/main/Group13bg-img.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50%) 65px;
+    padding-top: 50px;
+    width: 100%;
+    background-size: contain;
+    margin-bottom: 200px;
+}
+
+.our-collection__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    list-style-type: none;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.our-collection__list-item:hover {
+    box-shadow: 5px 5px 30px 5px #012e3b;
+    border-radius: 7px;
+}
+
+.our-collection__img {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 71px;
+}
+
+.our-collection__heading {
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    color: #333D4B;
+}
+
+.our-collection__text {
+    width: 255px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.our-collection__level {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .our-collection .container {
+    background-position: calc(50%) 130px;
+    background-size: center;
+    padding-top: 50px;
+    margin: 0;
+    margin: 0 auto;
+    margin-bottom: 129px;
+    padding-right: 40px;
+    padding-left: 40px;
+    }
+
+    .our-collection__list-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 47px;
+    }
+
+    .our-collection__text {
+        width: 285px;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .our-collection__img {
+        margin: 0;
+        padding: 0;
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .our-collection .container {
+        background-position: calc(50%) 0;
+        padding-top: 15px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    
+    .our-collection__list {
+        margin: 0;
+        padding: 0;
+        margin-top: 50%;
+    }
+    
+    .our-collection__list-item {
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .our-collection__list-item {
+        margin-bottom: 48px;
+    }
+    
+    .our-collection__img {
+        width: 200px;
+        height: 151px;
+    }
+    
+    .our-collection__heading {
+        font-family: "Fraunces", "Arial", sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 32px;
+        color: $darkgreyblue;
+    }
+    
+    .our-collection__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: $darkgreyblue;
+        opacity: 0.7;
+    }
+}
